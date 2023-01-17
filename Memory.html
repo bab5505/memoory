@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Memory Game!</title>
+    <link rel="stylesheet" href="Memory.css" />
+  </head>
+  <body>
+    <h1>Memory Game!</h1>
+    <div id="game">
+    </div>
+    <!-- <button class="btn" onclick="start()">Start game</button> -->
+    <br></br>
+    <div class="card-container">
+        <div class="card">
+            <div class="flip-card-inner" data-framework="eagle">
+              <div class="front">
+                <img src="https://cdn.pixabay.com/photo/2016/05/13/13/39/astronaut-1390007__340.jpg" alt="eagle"
+                style="width:100px;height:140px;">
+              </div>
+              <div class="back">  
+                <img src="https://cdn.pixabay.com/photo/2020/03/07/06/30/eagle-4908876_960_720.png"
+                style="width:100px;height:140px;">
+              </div>
+            </div>
+          </div>
+        <div class="card">
+            <div class="flip-card-inner" data-framework="monkey01">
+              <div class="front">
+                <img src="https://cdn.pixabay.com/photo/2016/05/13/13/39/astronaut-1390007__340.jpg" alt="monkey01"
+                style="width:100px;height:140px;">
+              </div>
+              <div class="back">  
+                <img src="https://cdn.pixabay.com/photo/2020/03/05/20/27/monkey-4905401_960_720.png"
+                style="width:100px;height:140px;">
+              </div>
+            </div>
+          </div>
+        <div class="card">
+            <div class="flip-card-inner" data-framework="wolf">
+              <div class="front">
+                <img src="https://cdn.pixabay.com/photo/2016/05/13/13/39/astronaut-1390007__340.jpg" alt="wolf"
+                style="width:100px;height:140px;">
+              </div>
+              <div class="back">  
+                <img src="https://cdn.pixabay.com/photo/2022/02/27/22/38/wolf-7038220_960_720.png"
+                style="width:100px;height:140px;">
+              </div>
+            </div>
+          </div>
+        <div class="card">
+            <div class="flip-card-inner" data-framework="sun">
+              <div class="front">
+                <img src="https://cdn.pixabay.com/photo/2016/05/13/13/39/astronaut-1390007__340.jpg" alt="sun"
+                style="width:100px;height:140px;">
+              </div>
+              <div class="back">  
+                <img src="https://cdn.pixabay.com/photo/2021/11/08/18/30/sun-6779812__340.png"
+                style="width:100px;height:140px;">
+              </div>
+            </div>
+          </div>
+        <div class="card">
+            <div class="flip-card-inner" data-framework="monkey02">
+              <div class="front">
+                <img src="https://cdn.pixabay.com/photo/2016/05/13/13/39/astronaut-1390007__340.jpg" alt="monkey02"
+                style="width:100px;height:140px;">
+              </div>
+              <div class="back">  
+                <img src="https://cdn.pixabay.com/photo/2015/05/27/15/49/monkey-786858_960_720.png"
+                style="width:100px;height:140px;">
+              </div>
+            </div>
+          </div>
+        <div class="card">
+            <div class="flip-card-inner" data-framework="rooster">
+              <div class="front">
+                <img src="https://cdn.pixabay.com/photo/2016/05/13/13/39/astronaut-1390007__340.jpg" alt="rooster"
+                style="width:100px;height:140px;">
+              </div>
+              <div class="back">  
+                <img src="https://cdn.pixabay.com/photo/2020/02/21/23/32/rooster-4869027_960_720.png"
+                style="width:100px;height:140px;">
+              </div>
+            </div>
+          </div>
+        <div class="card">
+            <div class="flip-card-inner" data-framework="owl">
+              <div class="front">
+                <img src="https://cdn.pixabay.com/photo/2016/05/13/13/39/astronaut-1390007__340.jpg" alt="owl"
+                style="width:100px;height:140px;">
+              </div>
+              <div class="back">  
+                <img src="https://cdn.pixabay.com/photo/2021/10/29/19/49/owl-6752832_960_720.png"
+                style="width:100px;height:140px;">
+              </div>
+            </div>
+          </div>
+        <div class="card">
+            <div class="flip-card-inner" data-framework="gorilla">
+              <div class="front">
+                <img src="https://cdn.pixabay.com/photo/2016/05/13/13/39/astronaut-1390007__340.jpg" alt="gorilla"
+                style="width:100px;height:140px;">
+              </div>
+              <div class="back">  
+                <img src="https://cdn.pixabay.com/photo/2020/10/13/21/41/gorilla-5652866_960_720.png"
+                style="width:100px;height:140px;">
+              </div>
+            </div>
+          </div>
+        <div class="card">
+            <div class="flip-card-inner" data-framework="camel">
+              <div class="front">
+                <img src="https://cdn.pixabay.com/photo/2016/05/13/13/39/astronaut-1390007__340.jpg" alt="camel"
+                style="width:100px;height:140px;">
+              </div>
+              <div class="back">  
+                <img src="https://cdn.pixabay.com/photo/2020/10/21/22/17/camel-5674406__340.png"
+                style="width:100px;height:140px;">
+              </div>
+            </div>
+          </div>
+        <div class="card">
+            <div class="flip-card-inner" data-framework="monkey01">
+              <div class="front">
+                <img src="https://cdn.pixabay.com/photo/2016/05/13/13/39/astronaut-1390007__340.jpg" alt="monkey01"
+                style="width:100px;height:140px;">
+              </div>
+              <div class="back">  
+                <img src="https://cdn.pixabay.com/photo/2020/03/05/20/27/monkey-4905401_960_720.png"
+                style="width:100px;height:140px;">
+              </div>
+            </div>
+          </div>
+        <div class="card">
+            <div class="flip-card-inner" data-framework="feather">
+              <div class="front">
+                <img src="https://cdn.pixabay.com/photo/2016/05/13/13/39/astronaut-1390007__340.jpg" alt="feather"
+                style="width:100px;height:140px;">
+              </div>
+              <div class="back">  
+                <img src="https://cdn.pixabay.com/photo/2022/02/27/22/47/feather-7038229_960_720.png"
+                style="width:100px;height:140px;">
+              </div>
+            </div>
+          </div>
+        <div class="card">
+            <div class="flip-card-inner" data-framework="eagle">
+              <div class="front">
+                <img src="https://cdn.pixabay.com/photo/2016/05/13/13/39/astronaut-1390007__340.jpg" alt="eagle"
+                style="width:100px;height:140px;">
+              </div>
+              <div class="back">  
+                <img src="https://cdn.pixabay.com/photo/2020/03/07/06/30/eagle-4908876_960_720.png"
+                style="width:100px;height:140px;">
+              </div>
+            </div>
+          </div>
+        <div class="card">
+            <div class="flip-card-inner" data-framework="wolf">
+              <div class="front">
+                <img src="https://cdn.pixabay.com/photo/2016/05/13/13/39/astronaut-1390007__340.jpg" alt="wolf"
+                style="width:100px;height:140px;">
+              </div>
+              <div class="back">  
+                <img src="https://cdn.pixabay.com/photo/2022/02/27/22/38/wolf-7038220_960_720.png"
+                style="width:100px;height:140px;">
+              </div>
+            </div>
+          </div>
+        <div class="card">
+            <div class="flip-card-inner" data-framework="sun">
+              <div class="front">
+                <img src="https://cdn.pixabay.com/photo/2016/05/13/13/39/astronaut-1390007__340.jpg" alt="sun"
+                style="width:100px;height:140px;">
+              </div>
+              <div class="back">  
+                <img src="https://cdn.pixabay.com/photo/2021/11/08/18/30/sun-6779812__340.png"
+                style="width:100px;height:140px;">
+              </div>
+            </div>
+          </div>
+        <div class="card">
+            <div class="flip-card-inner" data-framework="rooster">
+              <div class="front">
+                <img src="https://cdn.pixabay.com/photo/2016/05/13/13/39/astronaut-1390007__340.jpg" alt="rooster"
+                style="width:100px;height:140px;">
+              </div>
+              <div class="back">  
+                <img src="https://cdn.pixabay.com/photo/2020/02/21/23/32/rooster-4869027_960_720.png"
+                style="width:100px;height:140px;">
+              </div>
+            </div>
+          </div>
+        <div class="card">
+            <div class="flip-card-inner" data-framework="gorilla">
+              <div class="front">
+                <img src="https://cdn.pixabay.com/photo/2016/05/13/13/39/astronaut-1390007__340.jpg" alt="gorilla"
+                style="width:100px;height:140px;">
+              </div>
+              <div class="back">  
+                <img src="https://cdn.pixabay.com/photo/2020/10/13/21/41/gorilla-5652866_960_720.png"
+                style="width:100px;height:140px;">
+              </div>
+            </div>
+          </div>
+        <div class="card">
+            <div class="flip-card-inner" data-framework="feather">
+              <div class="front">
+                <img src="https://cdn.pixabay.com/photo/2016/05/13/13/39/astronaut-1390007__340.jpg" alt="feather"
+                style="width:100px;height:140px;">
+              </div>
+              <div class="back">  
+                <img src="https://cdn.pixabay.com/photo/2022/02/27/22/47/feather-7038229_960_720.png"
+                style="width:100px;height:140px;">
+              </div>
+            </div>
+          </div>
+        <div class="card">
+            <div class="flip-card-inner" data-framework="monkey02">
+              <div class="front">
+                <img src="https://cdn.pixabay.com/photo/2016/05/13/13/39/astronaut-1390007__340.jpg" alt="monkey02"
+                style="width:100px;height:140px;">
+              </div>
+              <div class="back">  
+                <img src="https://cdn.pixabay.com/photo/2015/05/27/15/49/monkey-786858_960_720.png"
+                style="width:100px;height:140px;">
+              </div>
+            </div>
+          </div>
+        <div class="card">
+            <div class="flip-card-inner" data-framework="owl">
+              <div class="front">
+                <img src="https://cdn.pixabay.com/photo/2016/05/13/13/39/astronaut-1390007__340.jpg" alt="owl"
+                style="width:100px;height:140px;">
+              </div>
+              <div class="back">  
+                <img src="https://cdn.pixabay.com/photo/2021/10/29/19/49/owl-6752832_960_720.png"
+                style="width:100px;height:140px;">
+              </div>
+            </div>
+          </div>
+        <div class="card">
+            <div class="flip-card-inner" data-framework="camel">
+              <div class="front">
+                <img src="https://cdn.pixabay.com/photo/2016/05/13/13/39/astronaut-1390007__340.jpg" alt="camel"
+                style="width:100px;height:140px;">
+              </div>
+              <div class="back">  
+                <img src="https://cdn.pixabay.com/photo/2020/10/21/22/17/camel-5674406__340.png"
+                style="width:100px;height:140px;">
+              </div>
+            </div>
+          </div>
+          <script src="Memory.js"></script>
+  </body>
+</html>
